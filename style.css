@@ -1,0 +1,101 @@
+@import url("https://use.typekit.net/tms5svo.css");
+
+@viewport
+{
+  zoom:               1.0;
+  width:              extend-to-zoom;
+}
+
+html 
+{
+  display:            flex;
+  justify-content:    center;
+}
+
+body
+{
+  padding:            3em 1em;
+  margin:             1em;
+  background-color:   #fff;
+  color:              #000;
+  font-family:        nimbus-sans, sans-serif;
+  font-weight:        400;
+  font-size:          1em;
+  max-width:          42em;
+  width:              100%;
+}
+
+h1, h2, h3
+{
+  font-family: cubano-sharp, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a
+{
+  color: #0242F2;
+}
+
+table 
+{  
+  width: 100%;
+}
+
+td 
+{
+  vertical-align: top;
+}
+
+ol, ul
+{
+  padding:            0em 1.2em;
+}
+
+li 
+{
+  margin:             0.1em 0;
+}
+
+.project
+{
+  margin-bottom:    1.2em; 
+}
+
+.project-property-title
+{
+  width: 120px;
+}
+
+.ws 
+{
+  margin-top:         2rem;
+}
+
+i.hl 
+{
+  font-style:         normal;
+  text-decoration:    underline;
+  color:              #000;
+}
+
+i.il-cd
+{
+  background-color:   #eee;
+  font-family:        'JetBrains Mono', monospace;
+  font-style:         normal;
+  font-size:          0.8em;
+}
+
+.cb 
+{
+  padding:            1em 1em;
+  border:             1px solid #000;
+  font-family:        'JetBrains Mono', monospace;
+  font-size:          0.8em;
+}
+
+.center
+{
+/*  text-align:          center; */
+}
